@@ -1,3 +1,6 @@
 # ShortCutter
-Simple function key to text program for Windows.
-Use the function keys from 1 to 12 to insert often used text into any input field.
+Simple Windows application to put prepared text lines into any selected input field by pressing a function key on the keyboard.
+
+The text lines for each F-key are automatically saved on application close.
+
+![Application screenshot](AppicationScreenshot.png)
