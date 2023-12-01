@@ -21,13 +21,13 @@ namespace ShortCutter
                 //create hotkeys for all F-keys
                 HotkeyModels.Add(new HotkeyModel("F" + i));
             }
-            
-            #if DEBUG
+
+#if DEBUG
             if (DesignerProperties.GetIsInDesignMode(new DependencyObject()))
             {
                 return;
             }
-            #endif
+#endif
 
             //hook keyboard
             keyboardHook = new KeyboardHook();
